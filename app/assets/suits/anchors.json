@@ -1,0 +1,193 @@
+{
+ "m01": {
+  "w": 350,
+  "h": 450,
+  "faceW": 174,
+  "chinY": 238,
+  "neckX": 178.5,
+  "top": 261,
+  "shoulder": 306,
+  "throat": 289,
+  "openW": 107
+ },
+ "m02": {
+  "w": 350,
+  "h": 450,
+  "faceW": 175,
+  "chinY": 236,
+  "neckX": 176.5,
+  "top": 252,
+  "shoulder": 303,
+  "throat": 283,
+  "openW": 109
+ },
+ "m03": {
+  "w": 350,
+  "h": 450,
+  "faceW": 174,
+  "chinY": 238,
+  "neckX": 178.5,
+  "top": 261,
+  "shoulder": 306,
+  "throat": 289,
+  "openW": 107
+ },
+ "m04": {
+  "w": 350,
+  "h": 450,
+  "faceW": 195,
+  "chinY": 272,
+  "neckX": 177.5,
+  "top": 288,
+  "shoulder": 350,
+  "throat": 329,
+  "openW": 131
+ },
+ "m05": {
+  "w": 350,
+  "h": 450,
+  "faceW": 195,
+  "chinY": 272,
+  "neckX": 177.5,
+  "top": 288,
+  "shoulder": 350,
+  "throat": 329,
+  "openW": 131
+ },
+ "m06": {
+  "w": 350,
+  "h": 450,
+  "faceW": 192,
+  "chinY": 262,
+  "neckX": 178.5,
+  "top": 278,
+  "shoulder": 342,
+  "throat": 317,
+  "openW": 125
+ },
+ "m07": {
+  "w": 350,
+  "h": 450,
+  "faceW": 192,
+  "chinY": 262,
+  "neckX": 178.5,
+  "top": 278,
+  "shoulder": 342,
+  "throat": 317,
+  "openW": 125
+ },
+ "m08": {
+  "w": 350,
+  "h": 450,
+  "faceW": 195,
+  "chinY": 256,
+  "neckX": 177.5,
+  "top": 274,
+  "shoulder": 342,
+  "throat": 324,
+  "openW": 125
+ },
+ "m09": {
+  "w": 350,
+  "h": 450,
+  "faceW": 175,
+  "chinY": 236,
+  "neckX": 176.5,
+  "top": 252,
+  "shoulder": 303,
+  "throat": 283,
+  "openW": 109
+ },
+ "m10": {
+  "w": 350,
+  "h": 450,
+  "faceW": 135,
+  "chinY": 196,
+  "neckX": 176.5,
+  "top": 214,
+  "shoulder": 250,
+  "throat": 236,
+  "openW": 85
+ },
+ "w01": {
+  "w": 350,
+  "h": 450,
+  "faceW": 177,
+  "chinY": 222,
+  "neckX": 176.5,
+  "top": 238,
+  "shoulder": 294
+ },
+ "w02": {
+  "w": 350,
+  "h": 450,
+  "faceW": 173,
+  "chinY": 222,
+  "neckX": 174.5,
+  "top": 238,
+  "shoulder": 294
+ },
+ "w03": {
+  "w": 350,
+  "h": 450,
+  "faceW": 173,
+  "chinY": 222,
+  "neckX": 170.5,
+  "top": 238,
+  "shoulder": 294
+ },
+ "w04": {
+  "w": 350,
+  "h": 450,
+  "faceW": 171,
+  "chinY": 232,
+  "neckX": 177.5,
+  "top": 248,
+  "shoulder": 324
+ },
+ "w05": {
+  "w": 350,
+  "h": 450,
+  "faceW": 177,
+  "chinY": 236,
+  "neckX": 176.5,
+  "top": 252,
+  "shoulder": 324
+ },
+ "w06": {
+  "w": 350,
+  "h": 450,
+  "faceW": 175,
+  "chinY": 234,
+  "neckX": 172.5,
+  "top": 250,
+  "shoulder": 324
+ },
+ "w07": {
+  "w": 350,
+  "h": 450,
+  "faceW": 171,
+  "chinY": 222,
+  "neckX": 178.5,
+  "top": 239,
+  "shoulder": 310
+ },
+ "w08": {
+  "w": 350,
+  "h": 450,
+  "faceW": 173,
+  "chinY": 222,
+  "neckX": 174.5,
+  "top": 238,
+  "shoulder": 309
+ },
+ "w09": {
+  "w": 350,
+  "h": 450,
+  "faceW": 171,
+  "chinY": 222,
+  "neckX": 170.5,
+  "top": 238,
+  "shoulder": 307
+ }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Replaced by `flutter build --base-href`; the published copy uses "./" so it works under any path. -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Сэлфи Шиноснома — document photos for Tajikistan, made on the phone.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Сэлфи Шиноснома">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Сэлфи Шиноснома</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    /* The app is a phone app: on a computer it is shown at phone size in a frame, centred and scaled to fit
+       the window height; on a phone it fills the screen. */
+    :root { --page: #DCE2EC; --frame: #E9EDF4; --lo: #AEB7CA; --hi: #FFFFFF; color-scheme: light; }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { --page: #1C2130; --frame: #2A3044; --lo: #11141d; --hi: #3a4258; }
+    }
+    :root[data-theme="dark"] { --page: #1C2130; --frame: #2A3044; --lo: #11141d; --hi: #3a4258; }
+    html, body { margin: 0; height: 100%; background: var(--page); overflow: hidden; }
+    body { display: flex; align-items: center; justify-content: center; }
+    #phone {
+      /* 390×844 screen, scaled down when the window is shorter or narrower */
+      --h: min(844px, calc(100vh - 48px), calc((100vw - 32px) * 844 / 390));
+      height: var(--h); width: calc(var(--h) * 390 / 844);
+      position: relative; overflow: hidden; background: #E9EDF4;
+      border-radius: 42px; border: 10px solid var(--frame);
+      box-shadow: 18px 18px 40px var(--lo), -14px -14px 34px var(--hi);
+    }
+    @media (max-width: 520px) {
+      #phone { width: 100vw; height: 100vh; height: 100dvh; border: 0; border-radius: 0; box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <div id="phone"></div>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

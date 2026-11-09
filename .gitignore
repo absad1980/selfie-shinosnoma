@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Flutter build output (app/.gitignore covers the rest)
+app/build/
+app/.dart_tool/
+
+# Signing keys must never be committed
+*.jks
+*.keystore
+key.properties
+
+# Built installers
+builds/
+app/android/build/
+
+# Activation-code key (both apps must be built with the same file; never commit)
+app/secrets.json
